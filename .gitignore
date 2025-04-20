@@ -1,0 +1,15 @@
+# Зависимости
+node_modules/
+package-lock.json
+
+# Файлы окружения
+.env
+
+# Кэш и временные файлы
+cache/
+*.log
+.DS_Store
+
+# Директория с сгенерированными презентациями
+output/
+public/images/ 
