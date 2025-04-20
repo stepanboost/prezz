@@ -6,10 +6,13 @@ package-lock.json
 .env
 
 # Кэш и временные файлы
-cache/
+cache/*
+!cache/.gitkeep
 *.log
 .DS_Store
 
-# Директория с сгенерированными презентациями
-output/
-public/images/ 
+# Директории с генерируемым контентом
+output/*
+!output/.gitkeep
+public/images/*
+!public/images/.gitkeep 
